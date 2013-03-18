@@ -22,6 +22,7 @@
 		5A6D7B9A16F5390000753C1C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D7B9916F5390000753C1C /* Player.m */; };
 		5A6D7B9D16F5488500753C1C /* Fighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D7B9C16F5488500753C1C /* Fighter.m */; };
 		5A6D7BBD16F598BC00753C1C /* Equipment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D7BBC16F598BC00753C1C /* Equipment.m */; };
+		5A6D7BC016F64DC200753C1C /* CrudeDagger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6D7BBF16F64DC200753C1C /* CrudeDagger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,8 @@
 		5A6D7B9C16F5488500753C1C /* Fighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fighter.m; sourceTree = "<group>"; };
 		5A6D7BBB16F598BC00753C1C /* Equipment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equipment.h; sourceTree = "<group>"; };
 		5A6D7BBC16F598BC00753C1C /* Equipment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equipment.m; sourceTree = "<group>"; };
+		5A6D7BBE16F64DC200753C1C /* CrudeDagger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrudeDagger.h; path = blades/CrudeDagger.h; sourceTree = "<group>"; };
+		5A6D7BBF16F64DC200753C1C /* CrudeDagger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CrudeDagger.m; path = blades/CrudeDagger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 		5A6D7B7916F538A100753C1C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A6D7BC116F6969800753C1C /* Sword */,
 				5A6D7B7A16F538A100753C1C /* Dungeon of Despair-Info.plist */,
 				5A6D7B7B16F538A100753C1C /* InfoPlist.strings */,
 				5A6D7B7E16F538A100753C1C /* main.m */,
@@ -123,6 +127,15 @@
 				5A6D7B8816F538A200753C1C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A6D7BC116F6969800753C1C /* Sword */ = {
+			isa = PBXGroup;
+			children = (
+				5A6D7BBE16F64DC200753C1C /* CrudeDagger.h */,
+				5A6D7BBF16F64DC200753C1C /* CrudeDagger.m */,
+			);
+			name = Sword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +211,7 @@
 				5A6D7B9A16F5390000753C1C /* Player.m in Sources */,
 				5A6D7B9D16F5488500753C1C /* Fighter.m in Sources */,
 				5A6D7BBD16F598BC00753C1C /* Equipment.m in Sources */,
+				5A6D7BC016F64DC200753C1C /* CrudeDagger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

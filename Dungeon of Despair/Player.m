@@ -32,6 +32,7 @@
 @synthesize evade;
 @synthesize accuracy;
 @synthesize criticalPercentage;
+@synthesize attrDic;
 
 
 -(id) init {
@@ -41,6 +42,30 @@
         [self setExperience:0];
         [self setGold:100];
         [self setTokens:0];
+        [self setAttrDic:[[NSDictionary alloc] initWithObjectsAndKeys:
+                          @"level", @"1",
+                          @"experience", @"2",
+                          @"healthPoints", @"3",
+                          @"manaPoints", @"4",
+                          @"gold", @"5",
+                          @"tokens", @"6",
+                          @"strength", @"7",
+                          @"dexterity", @"8",
+                          @"vitality", @"9",
+                          @"intelligence", @"a",
+                          @"luck", @"b",
+                          @"minAttackDmg", @"c",
+                          @"maxAttackDmg", @"d",
+                          @"minMagicDmg", @"e",
+                          @"maxMagicDmg", @"f",
+                          @"physicalDefense", @"g",
+                          @"magicalDefense", @"h",
+                          @"block", @"i",
+                          @"save", @"j",
+                          @"evade", @"k",
+                          @"accuracy", @"l",
+                          @"criticalPercentage", @"m",
+                          nil]];
     }
     return self;
 }

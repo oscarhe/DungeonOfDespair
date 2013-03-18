@@ -1,5 +1,5 @@
 //
-//  Equipment.m
+//  CrudeDagger.h
 //  Dungeon of Despair
 //
 //  Created by Oscar He on 3/17/13.
@@ -8,12 +8,8 @@
 
 #import "Equipment.h"
 
-@implementation Equipment
+@interface CrudeDagger : Equipment
 
-@synthesize name;
-@synthesize buyValue;
-@synthesize sellValue;
-@synthesize attrStr;
+-(id) init;
 
 @end
-
